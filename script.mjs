@@ -20,7 +20,7 @@ async function connectToMongoDB() {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
-        console.log('Conectado ao MongoDB');
+        console.log('Conectado ao MongoDBa');
     } catch (error) {
         console.error('Erro ao conectar ao MongoDB:', error);
     }
